@@ -1,0 +1,44 @@
+﻿* {box-sizing: border-box;}
+html, body {margin: 0;padding: 0;}
+
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+}
+
+#container_botões{
+  user-select: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+span:hover {
+  cursor: pointer;
+}
+
+h1:hover {
+  cursor: pointer;
+}
+
+#container_botões span {
+  user-select: none;
+  display: inline-block;
+  padding: 3px 6px;
+  width: 100px;
+  height:35px;
+  border: 2px solid;
+    border-color: #08567c;
+  border-left: none ;
+  font-size: 20px;
+  color:"#08567c";
+  margin-left: -2px;
+  margin-right: -2px;
+}
+
+#container_botões span:first-child {
+border-left: 2px #08567c solid; 
+
+}
+
